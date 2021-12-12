@@ -1,0 +1,20 @@
+<ROOT> -> S
+S -> NP VP END
+NP -> Det N
+NP -> N
+NP -> P N
+VP -> V
+VP -> V N
+VP -> V NP
+VP -> V NP PP
+PP -> P NP
+Det -> the
+Det -> a
+N -> cat
+V -> ate
+N -> pickle
+N -> time
+N -> food
+N -> dog
+P -> in
+END -> .
